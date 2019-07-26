@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="review_recommended" label="Review Recommended" language="en" table="var__m_sys_decision_input_79eaafbedb893300efc65404ce96198b">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>review_recommended</element>
+            <help/>
+            <hint/>
+            <label>Review Recommended</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_79eaafbedb893300efc65404ce96198b</name>
+            <plural>Review Recommended</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>joshua.nerius@snc</sys_created_by>
+            <sys_created_on>2019-04-30 14:01:35</sys_created_on>
+            <sys_id>615b2bfedb893300efc65404ce9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Review Recommended</sys_name>
+            <sys_package display_value="Sensitive Data Detection" source="sn_sensitive_data">2e5aef7edb893300efc65404ce9619eb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sensitive Data Detection">2e5aef7edb893300efc65404ce9619eb</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_decision_input_79eaafbedb893300efc65404ce96198b_review_recommended_en</sys_update_name>
+            <sys_updated_by>joshua.nerius@snc</sys_updated_by>
+            <sys_updated_on>2019-04-30 14:01:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
