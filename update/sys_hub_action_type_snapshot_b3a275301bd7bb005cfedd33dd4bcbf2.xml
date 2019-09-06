@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>screen text for sensitive data or objectionable content</description>
+        <internal_name>screen_text</internal_name>
+        <label_cache>[{"name":"{{action.content}}","label":"action➛Content","type":"action","ref":""},{"name":"{{action.content_type}}","label":"action➛Content Type","type":"action","ref":""},{"name":"{{action.classify_text}}","label":"action➛Classify Text","type":"action","ref":""},{"name":"{{action.detect_pii}}","label":"action➛Detect PII","type":"action","ref":""},{"name":"{{step[b247c067-0f50-4d99-ad75-5a2eb0f22854].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[b247c067-0f50-4d99-ad75-5a2eb0f22854].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].e}}","label":"step➛Script step➛e","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].em}}","label":"step➛Script step➛em","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].ema}}","label":"step➛Script step➛ema","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emai}}","label":"step➛Script step➛emai","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].email}}","label":"step➛Script step➛email","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emails}}","label":"step➛Script step➛emails","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emailsD}}","label":"step➛Script step➛emailsD","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emailsDe}}","label":"step➛Script step➛emailsDe","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emailsDet}}","label":"step➛Script step➛emailsDet","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emailsDete}}","label":"step➛Script step➛emailsDete","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emailsDetec}}","label":"step➛Script step➛emailsDetec","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emailsDetect}}","label":"step➛Script step➛emailsDetect","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emailsDetecte}}","label":"step➛Script step➛emailsDetecte","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emailsDetected}}","label":"step➛Script step➛emailsDetected","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].phonesDetected}}","label":"step➛Script step➛phonesDetected","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].ipDetected}}","label":"step➛Script step➛ipDetected","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].ipDetecteds}}","label":"step➛Script step➛ipDetecteds","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].addressesDetected}}","label":"step➛Script step➛addressesDetected","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].ssnsDetected}}","label":"step➛Script step➛ssnsDetected","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].r}}","label":"step➛Script step➛r","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].re}}","label":"step➛Script step➛re","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].rev}}","label":"step➛Script step➛rev","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].revi}}","label":"step➛Script step➛revi","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].revie}}","label":"step➛Script step➛revie","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].review}}","label":"step➛Script step➛review","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewR}}","label":"step➛Script step➛reviewR","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRe}}","label":"step➛Script step➛reviewRe","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRec}}","label":"step➛Script step➛reviewRec","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewReco}}","label":"step➛Script step➛reviewReco","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRecom}}","label":"step➛Script step➛reviewRecom","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRecomm}}","label":"step➛Script step➛reviewRecomm","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRecomme}}","label":"step➛Script step➛reviewRecomme","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRecommen}}","label":"step➛Script step➛reviewRecommen","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRecommend}}","label":"step➛Script step➛reviewRecommend","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRecommende}}","label":"step➛Script step➛reviewRecommende","type":"step","ref":""},{"name":"{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRecommended}}","label":"step➛Script step➛reviewRecommended","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Screen Text</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Screen Text">8e9c61781b97bb005cfedd33dd4bcbb6</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:52</sys_created_on>
+        <sys_id>b3a275301bd7bb005cfedd33dd4bcbf2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Screen Text</sys_name>
+        <sys_package display_value="Sensitive Data Detection" source="sn_sensitive_data">2e5aef7edb893300efc65404ce9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sensitive Data Detection">2e5aef7edb893300efc65404ce9619eb</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_b3a275301bd7bb005cfedd33dd4bcbf2</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3a275301bd7bb005cfedd33dd4bcbf2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b3a275301bd7bb005cfedd33dd4bcbf2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>b3a275301bd7bb005cfedd33dd4bcbf2</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>1db2f5301bd7bb005cfedd33dd4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">d5b2f5301bd7bb005cfedd33dd4bcb8a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>b3a275301bd7bb005cfedd33dd4bcbf2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>59b2f5301bd7bb005cfedd33dd4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <value/>
+        <variable display_value="">c9b2f5301bd7bb005cfedd33dd4bcb74</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>b3a275301bd7bb005cfedd33dd4bcbf2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>91b2f5301bd7bb005cfedd33dd4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <value/>
+        <variable display_value="">91b2f5301bd7bb005cfedd33dd4bcb7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>b3a275301bd7bb005cfedd33dd4bcbf2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>95b2f5301bd7bb005cfedd33dd4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <value/>
+        <variable display_value="">89b2f5301bd7bb005cfedd33dd4bcb6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>b3a275301bd7bb005cfedd33dd4bcbf2</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>d1b2f5301bd7bb005cfedd33dd4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <value/>
+        <variable display_value="">11b2f5301bd7bb005cfedd33dd4bcb85</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>b3a275301bd7bb005cfedd33dd4bcbf2</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>ddb2f5301bd7bb005cfedd33dd4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <value/>
+        <variable display_value="">59b2f5301bd7bb005cfedd33dd4bcb7f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b3a275301bd7bb005cfedd33dd4bcbf2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>addresses_detected</field>
+        <id>b3a275301bd7bb005cfedd33dd4bcbf2</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>9db2f5301bd7bb005cfedd33dd4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b3a275301bd7bb005cfedd33dd4bcbf2</table>
+        <value>{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].addressesDetected}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>emails_detected</field>
+        <id>b3a275301bd7bb005cfedd33dd4bcbf2</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>55b2f5301bd7bb005cfedd33dd4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b3a275301bd7bb005cfedd33dd4bcbf2</table>
+        <value>{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].emailsDetected}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ips_detected</field>
+        <id>b3a275301bd7bb005cfedd33dd4bcbf2</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>51b2f5301bd7bb005cfedd33dd4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b3a275301bd7bb005cfedd33dd4bcbf2</table>
+        <value>{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].ipDetecteds}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>phones_detected</field>
+        <id>b3a275301bd7bb005cfedd33dd4bcbf2</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>19b2f5301bd7bb005cfedd33dd4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b3a275301bd7bb005cfedd33dd4bcbf2</table>
+        <value>{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].phonesDetected}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>review_recommended</field>
+        <id>b3a275301bd7bb005cfedd33dd4bcbf2</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>d9b2f5301bd7bb005cfedd33dd4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b3a275301bd7bb005cfedd33dd4bcbf2</table>
+        <value>{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].reviewRecommended}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ssns_detected</field>
+        <id>b3a275301bd7bb005cfedd33dd4bcbf2</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-13 20:27:58</sys_created_on>
+        <sys_id>91b2f5301bd7bb005cfedd33dd4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-13 20:27:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b3a275301bd7bb005cfedd33dd4bcbf2</table>
+        <value>{{step[c1698f07-2c8a-4289-8f80-ba6f8876093f].ssnsDetected}}</value>
+    </sys_element_mapping>
+</record_update>

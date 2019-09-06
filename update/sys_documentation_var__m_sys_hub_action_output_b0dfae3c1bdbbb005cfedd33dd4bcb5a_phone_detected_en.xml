@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="phone_detected" label="Phone Detected" language="en" table="var__m_sys_hub_action_output_b0dfae3c1bdbbb005cfedd33dd4bcb5a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>phone_detected</element>
+            <help/>
+            <hint/>
+            <label>Phone Detected</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_b0dfae3c1bdbbb005cfedd33dd4bcb5a</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>robert.peerenboom</sys_created_by>
+            <sys_created_on>2019-08-14 00:55:05</sys_created_on>
+            <sys_id>4adfee3c1bdbbb005cfedd33dd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Phone Detected</sys_name>
+            <sys_package display_value="Sensitive Data Detection" source="sn_sensitive_data">2e5aef7edb893300efc65404ce9619eb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sensitive Data Detection">2e5aef7edb893300efc65404ce9619eb</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b0dfae3c1bdbbb005cfedd33dd4bcb5a_phone_detected_en</sys_update_name>
+            <sys_updated_by>robert.peerenboom</sys_updated_by>
+            <sys_updated_on>2019-08-14 00:55:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
